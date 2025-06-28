@@ -1,6 +1,6 @@
 # 🎮 Soumyo_o's Simon Game
 
-[![Simon Game Screenshot](./src/assets/Demo-pic.png)](https://soumyoo.github.io/SIMON-GAME/)
+[![Simon Game Screenshot](./src/assets/Demo-pic.png)](https://soumyoo.github.io/SIMON-GAME/){:target="_blank"}
 
 A classic memory-based color pattern game built with **React**, **Tailwind CSS**, and React Hooks. The game challenges players to repeat an ever-growing sequence of colors. How long can you keep up?
 
