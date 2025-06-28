@@ -1,12 +1,34 @@
-# React + Vite
+# 🎮 Soumyo_o's Simon Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A classic memory-based color pattern game built with **React**, **Tailwind CSS**, and React Hooks. The game challenges players to repeat an ever-growing sequence of colors. How long can you keep up?
 
-Currently, two official plugins are available:
+## 🧠 Game Rules
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Click the **center button** to start the game.
+2. The game will highlight a **random color**.
+3. Repeat the sequence by clicking the buttons in **correct order**.
+4. Each round adds **one more color** to the sequence.
+5. If you click the **wrong color**, the game ends and displays your **score**.
+6. Click the center button again to **restart**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/soumyoo/SIMON-GAME.git
+   cd simon-game
+   npm install
+   npm run dev
+
+## 📂 Project Structure
+src/
+│
+├── components/
+│   └── GameBtn.jsx      # Single button component with color, ref, and click handling
+│
+├── SimonGame.jsx        # Main game logic and UI
+├── App.jsx              # Root entry (renders SimonGame)
+└── index.css / main.jsx # Tailwind + React entry files
+
