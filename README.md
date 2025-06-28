@@ -1,5 +1,7 @@
 # 🎮 Soumyo_o's Simon Game
 
+![Simon Game Screenshot](./src/assets/Demo-pic.png)
+
 A classic memory-based color pattern game built with **React**, **Tailwind CSS**, and React Hooks. The game challenges players to repeat an ever-growing sequence of colors. How long can you keep up?
 
 ## 🧠 Game Rules
@@ -21,14 +23,3 @@ A classic memory-based color pattern game built with **React**, **Tailwind CSS**
    cd simon-game
    npm install
    npm run dev
-
-## 📂 Project Structure
-src/
-│
-├── components/
-│   └── GameBtn.jsx      # Single button component with color, ref, and click handling
-│
-├── SimonGame.jsx        # Main game logic and UI
-├── App.jsx              # Root entry (renders SimonGame)
-└── index.css / main.jsx # Tailwind + React entry files
-
